@@ -14,6 +14,17 @@ header {
   grid-area: header;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-image: url('./images/header-image.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+#header-title {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  margin-left: 1rem;
+  font-weight: bold;
 }
 
 .nav ul {
