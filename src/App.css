@@ -12,6 +12,19 @@
 
 header {
   grid-area: header;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.nav ul li {
+  margin: 0 1rem;
+  list-style: none;
 }
 
 main {
